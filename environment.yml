@@ -1,0 +1,9 @@
+name: iceberg-lab-techup2
+channels:
+  - conda-forge
+dependencies:
+  - findspark=2.0.1
+  - jupyter=1.0.0
+  - pyspark=3.5.0
+  - openjdk=11.0.13
+  - cryptography

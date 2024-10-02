@@ -17,7 +17,7 @@ To create the environment needed, run the following in your shell:
 https://app.snowflake.com/us-west-2/tzb93977/#/catalogs/apj_ps_tmup_ext  
 
 User: `apj_admin`  
-pw: `<pw>`  
+pw: `zdw6XCZ*gkj_efv4ebj`  
 
 ### Create a new connection for Apache Spark ### 
 
