@@ -37,12 +37,27 @@ While creating the connection, Set:
 
 
 
+## LAB 1 ##  
+###  Set up Spark ###  
+From your terminal, run the following commands:  
 
-##  Set up Spark ##  
-From your terminal, run the following commands to activate the virtual environment you created in the setup, and open jupyter notebooks.  
+Find the file location of your virtual environment. You'll need this for the notebook.  
+`conda env list | grep iceberg-lab-techup`  
+Copy the file location i.e: `/Users/mstarc/anaconda3/envs/iceberg-lab-techup`
 
-`conda activate iceberg-lab`  
+To activate the virtual environment you created in the setup, and open jupyter notebooks.  
+
+`conda activate iceberg-lab-techup`  
+
 `jupyter notebook`  
 
-Open `Step1.ipynb` in your notebook. Follow instructions in notebook.
+Open `LAB1.ipynb` in your notebook. Follow instructions in notebook.
+
+Once you complete 
+
+## LAB 2 ##  
+
+Login to Snowflake CAS2
+
+Import the notebook LAB2.ipynb into Snowflake under Projects -> Notebooks and follow the instructions on reading your Polaris managed Iceberg table in Snowflake.
 

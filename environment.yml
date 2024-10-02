@@ -1,4 +1,4 @@
-name: iceberg-lab-techup2
+name: iceberg-lab-techup
 channels:
   - conda-forge
 dependencies:
