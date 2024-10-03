@@ -5,6 +5,7 @@
 - Anaconda
 - Key-pair configured in CAS2 environment (LAB 4)
 
+## LAB 1 ##  
 
 ## Install Conda, Spark, Jupyter on your laptop ##  
 
@@ -14,7 +15,8 @@ To create the environment needed, run the following in your shell:
 
 ## Log into the Polaris Catalog Web Interface ##  
 
-https://app.snowflake.com/us-west-2/tzb93977/#/catalogs/apj_ps_tmup_ext  
+  
+<a href="https://app.snowflake.com/us-west-2/tzb93977/#/catalogs/apj_ps_tmup_ext" target="_blank">https://app.snowflake.com/us-west-2/tzb93977/#/catalogs/apj_ps_tmup_ext</a>  
 
 User: `apj_admin`  
 pw: `zdw6XCZ*gkj_efv4ebj`  
@@ -37,7 +39,6 @@ While creating the connection, Set:
 
 
 
-## LAB 1 ##  
 ###  Set up Spark ###  
 From your terminal, run the following commands:  
 
@@ -53,7 +54,7 @@ To activate the virtual environment you created in the setup, and open jupyter n
 
 Open `LAB1.ipynb` in your notebook. Follow instructions in notebook.
 
-Once you complete 
+Once you complete mo e onto lab 2.
 
 ## LAB 2 ##  
 
@@ -65,7 +66,7 @@ Import the notebook LAB2.ipynb into Snowflake under Projects -> Notebooks and fo
 
 ## Log into the Polaris Catalog Web Interface ##  
 
-https://app.snowflake.com/us-west-2/tzb93977/#/catalogs/apj_ps_tmup_ext  
+<a href="https://app.snowflake.com/us-west-2/tzb93977/#/catalogs/apj_ps_tmup_ext" target="_blank">https://app.snowflake.com/us-west-2/tzb93977/#/catalogs/apj_ps_tmup_ext</a>  
 
 User: `apj_admin`  
 pw: `zdw6XCZ*gkj_efv4ebj`  
@@ -89,4 +90,19 @@ While creating the connection, Set:
 Login to Snowflake CAS2
 
 Import the notebook LAB3.ipynb into Snowflake under Projects -> Notebooks and follow the instructions on reading your Polaris managed Iceberg table in Snowflake.
+
+## LAB 4 ##  
+
+Lab 4 will require either username & private key to access CAS2. 
+If you haven't setup a private for your CAS2 login you can do so my following the following instructions <a href="https://docs.snowflake.com/en/user-guide/key-pair-auth#configuring-key-pair-authentication " target="_blank">Here</a> 
+
+Once you have Key pair setup in CAS2 you can open `LAB4.ipynb` up in your Jupyter notebook session. You can start that session up again by running:
+
+`conda activate iceberg-lab-techup`  
+
+`jupyter notebook`  
+
+
+
+## Further reading ##  
 
