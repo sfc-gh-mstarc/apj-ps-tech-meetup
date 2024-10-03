@@ -3,7 +3,6 @@
 ### Prerequisites  ##  
 
 - Anaconda
-- Key-pair configured in CAS2 environment (LAB 4)
 
 ## LAB 1 ##  
 
