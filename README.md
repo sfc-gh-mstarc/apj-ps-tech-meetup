@@ -61,3 +61,32 @@ Login to Snowflake CAS2
 
 Import the notebook LAB2.ipynb into Snowflake under Projects -> Notebooks and follow the instructions on reading your Polaris managed Iceberg table in Snowflake.
 
+## LAB 3 ##  
+
+## Log into the Polaris Catalog Web Interface ##  
+
+https://app.snowflake.com/us-west-2/tzb93977/#/catalogs/apj_ps_tmup_ext  
+
+User: `apj_admin`  
+pw: `zdw6XCZ*gkj_efv4ebj`  
+
+### Create a new connection for Snowflake ### 
+
+Create a new connection (client_id / client_secret pair) for Snowflake to sync to the catalog `apj_ps_tmup_ext`. To create a connection, click the Connections tab in the left nav pane and click the +Connection button in the right corner.
+
+
+While creating the connection, Set:  
+ `Query Engine` = `Snowflake`   
+ `Name` = `<username>_ext`  
+ `Principal Role` = `admin_ext`  
+
+
+![alt Connection details](start2.png "Title")
+
+
+## Copy the client_id and client_secret and keep them in a safe place. ##   
+
+Login to Snowflake CAS2
+
+Import the notebook LAB3.ipynb into Snowflake under Projects -> Notebooks and follow the instructions on reading your Polaris managed Iceberg table in Snowflake.
+
