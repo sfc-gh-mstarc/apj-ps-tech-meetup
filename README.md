@@ -61,6 +61,8 @@ Login to Snowflake CAS2
 
 Import the notebook LAB2.ipynb into Snowflake under Projects -> Notebooks and follow the instructions on reading your Polaris managed Iceberg table in Snowflake.
 
+![alt Connection details](start3.png "Title")
+
 ## LAB 3 ##  
 
 ## Log into the Polaris Catalog Web Interface ##  
@@ -89,6 +91,8 @@ While creating the connection, Set:
 Login to Snowflake CAS2
 
 Import the notebook LAB3.ipynb into Snowflake under Projects -> Notebooks and follow the instructions on reading your Polaris managed Iceberg table in Snowflake.
+
+![alt Connection details](start4.png "Title")
 
 ## LAB 4 ##  
 
