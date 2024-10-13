@@ -1,0 +1,23 @@
+import os
+os.environ['SPARK_HOME'] = '/Users/mstarc/code/iceberg-lab/apj_ps_lab/lib/python3.10/site-packages/pyspark'
+os.environ['JAVA_HOME'] = '/Users/mstarc/.jenv/versions/1.8/'
+
+import pyspark
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.appName('iceberg_lab') \
+.config('spark.jars.packages', 'org.apache.iceberg:iceberg-spark-runtime-3.5_2.12:1.4.1,software.amazon.awssdk:bundle:2.20.160,software.amazon.awssdk:url-connection-client:2.20.160') \
+.config('spark.sql.extensions', 'org.apache.iceberg.spark.extensions.IcebergSparkSessionExtensions') \
+.config('spark.sql.defaultCatalog', 'polaris') \
+.config('spark.sql.catalog.polaris', 'org.apache.iceberg.spark.SparkCatalog') \
+.config('spark.sql.catalog.polaris.type', 'rest') \
+.config('spark.sql.catalog.polaris.header.X-Iceberg-Access-Delegation','vended-credentials') \
+.config('spark.sql.catalog.polaris.uri','https://tzb93977.snowflakecomputing.com/polaris/api/catalog') \
+.config('spark.sql.catalog.polaris.credential','***REMOVED***') \
+.config('spark.sql.catalog.polaris.warehouse','apj_ps_tmup_int') \
+.config('spark.sql.catalog.polaris.scope','PRINCIPAL_ROLE:admin_int') \
+.config('spark.sql.catalog.polaris.client.region','us-west-2') \
+.getOrCreate()
+
+#Show namespaces
+spark.sql("show namespaces").show()

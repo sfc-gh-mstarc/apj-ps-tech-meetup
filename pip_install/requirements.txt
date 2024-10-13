@@ -1,0 +1,4 @@
+pyspark==3.5.0
+ipykernel==6.29.5
+notebook==7.2.2
+findspark==2.0.1
