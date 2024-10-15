@@ -109,3 +109,15 @@ Once you have Key pair setup in CAS2 you can open `LAB4.ipynb` up in your Jupyte
 
 ## Further reading ##  
 
+- Spark connection to Snowflake managed Iceberg tables, no Polaris. `SF_SPARK.ipynb` walks you through this. It requires a connection to Snowflake and the connection details to AWS.  
+
+- <a href="https://quickstarts.snowflake.com/guide/getting_started_iceberg_tables/index.html#0" target="_blank">Getting Started with Iceberg Tables</a>  
+
+- Compass <a href="https://snowflake.seismic.com/Link/Content/DCGph4qCF63RqG2PHTHdghHQBfRV" target="_blank">Polaris Catalog Compass page</a>  
+
+- Compass <a href="https://snowflake.seismic.com/Link/Content/DCdRXbWT6DCDPGHJdHb4GW4Pg9JB" target="_blank">Iceberg Tables Compass page</a>  
+
+- Slack  <a href="https://snowflake.enterprise.slack.com/archives/C034ELEETRA" target="_blank">#iceberg-snowflake</a>  
+
+- Slack  <a href="https://snowflake.enterprise.slack.com/archives/C0742QN88G5" target="_blank">#apache-polaris-incubating</a>  
+
